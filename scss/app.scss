@@ -1,6 +1,6 @@
 /** IMPORTS **/
-@import "variables.scss";
-@import "reset.scss";
+@use "variables.scss";
+@use "reset.scss";
 
 /** VERSION: PC **/
 #pc-wrap {
@@ -12,6 +12,5 @@
         width: 1300px;
         margin: 0 auto;
         display: flex;
-        background: rgb(210, 225, 175);
     }
 }
